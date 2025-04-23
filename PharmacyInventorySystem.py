@@ -12,7 +12,7 @@ def add_medicine(name, quantity, price):
     else:
         inventory[name] = {'quantity': quantity, 'price': price}
     print(f"{quantity} units of '{name}' added to inventory.")
-
+# cORRECTED
 def view_inventory():
     print("\n--- Inventory ---")
     if not inventory:
