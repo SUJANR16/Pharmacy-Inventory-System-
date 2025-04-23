@@ -20,7 +20,7 @@ def view_inventory():
         return
     for name, details in inventory.items():
         print(f"{name} | Quantity: {details['quantity']} | Price: ${details['price']:.2f}")
-
+#git you please end
 def sell_medicine(name, quantity):
     if name not in inventory:
         print(f"'{name}' is not in stock.")
